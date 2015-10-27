@@ -16,4 +16,8 @@ describe('leetspeak', function() {
     expect(leetspeak("tree")).to.equal("7r33");
   });
 
+  it("replaces all instances of the letter 's' with the letter 'z' except when it is the first letter in a word", function() {
+    expect(leetspeak("sss")).to.equal("szz");
+  });
+
 });
