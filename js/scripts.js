@@ -1,6 +1,6 @@
 var leetspeak = function(input){
   var inputArray = input.split('');
-  var newWord;
+  var leetWord;
 
   for (var i=0; i<=inputArray.length; i++) {
     if (inputArray[i] === "e") {
@@ -15,12 +15,7 @@ var leetspeak = function(input){
       inputArray[i] = "z";
     }
 
-
-    // for debugging purposes
-    // console.log(inputArray[i]);
-    newWord = inputArray.join('');
-    // for debugging purposes
-    // console.log(newWord);
   }
-  return(newWord);
+  leetWord = inputArray.join('');
+  return(leetWord);
 };
