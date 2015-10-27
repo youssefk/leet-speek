@@ -7,6 +7,8 @@ var leetspeak = function(input){
       inputArray[i] = "3";
     } else if (inputArray[i] === "o") {
       inputArray[i] = "0";
+    } else if (inputArray[i] === "I") {
+      inputArray[i] = "1";
     }
 
 
