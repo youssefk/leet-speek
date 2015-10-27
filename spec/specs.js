@@ -12,4 +12,8 @@ describe('leetspeak', function() {
     expect(leetspeak("Ink")).to.equal("1nk");
   });
 
+  it("replaces all instances of the letter 't' with the number '7'", function() {
+    expect(leetspeak("tree")).to.equal("7r33");
+  });
+
 });

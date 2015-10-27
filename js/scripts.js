@@ -9,6 +9,8 @@ var leetspeak = function(input){
       inputArray[i] = "0";
     } else if (inputArray[i] === "I") {
       inputArray[i] = "1";
+    } else if (inputArray[i] === "t") {
+      inputArray[i] = "7";
     }
 
 
