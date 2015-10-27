@@ -1,6 +1,5 @@
 var leetspeak = function(input){
-  var input = 'java';
-
-  return(input);
-
+  if (input = 'java') {
+    return(input);
+  }
 };
